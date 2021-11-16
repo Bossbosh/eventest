@@ -1,8 +1,7 @@
 package com.zhy.event;
 
-import com.efunds.cache.service.CacheProviderService;
 import com.efunds.log.annotations.RequestLog;
-import com.efunds.log.aspect.MapperLogAspect;
+import com.zhy.cache.service.CacheProviderService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -34,7 +33,7 @@ public class Controller {
     @GetMapping("/getcache")
     @RequestLog
     public void testGetCache(@RequestParam String key){
-        logger.info("the key is " + key+" value is "+cacheProviderService.get("name"));
+        logger.info("the key is " + key+" value is "+cacheProviderService.get(key));
     }
 
 

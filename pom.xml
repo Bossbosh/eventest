@@ -30,9 +30,9 @@
         </dependency>
 
         <dependency>
-            <groupId>com.efunds</groupId>
+            <groupId>com.zhy</groupId>
             <artifactId>cache-starter</artifactId>
-            <version>1.2.2-SNAPSHOT</version>
+            <version>1.4.4-SNAPSHOT</version>
         </dependency>
 
 
