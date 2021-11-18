@@ -1,7 +1,7 @@
 package com.zhy.event;
 
-import com.efunds.log.annotations.RequestLog;
 import com.zhy.cache.service.CacheProviderService;
+import com.zhy.log.annotations.RequestLog;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
